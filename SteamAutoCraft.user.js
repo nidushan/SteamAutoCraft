@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Steam-Autocraft
-// @version      1.3
+// @version      1.4
 // @description  AutoCraft Steam Community Badges
 // @author       nidushan
 // @include      /^https?:\/\/steamcommunity\.com\/+(id\/+[A-Za-z0-9$-_.+!*'(),]+|profiles\/+[0-9]+)\/+(badges\/?|gamecards\/+[0-9]+\/?).*$/
@@ -24,7 +24,7 @@ var pageRefreshTimeoutmsDef  = 10000;
 var pageRefreshTimeoutms     = pageRefreshTimeoutmsDef;
 var redirect                 = 0;
 var skipCraft                = 0;
-var steamAutoCraftVersion    = '1.3';
+var steamAutoCraftVersion    = '1.4';
 
 // guard to avoid double-adding UI
 var _uiInserted = false;
