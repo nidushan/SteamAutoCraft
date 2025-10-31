@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Steam-Autocraft-Reupload
+// @name         Steam-Autocraft
 // @version      1.4
-// @description  AutoCraft Steam Community Badges
+// @description  Automatically craft badges
 // @author       nidushan
 // @namespace    https://github.com/nidushan/SteamAutoCraft
 // @match        https://steamcommunity.com/*
