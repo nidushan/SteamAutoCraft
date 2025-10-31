@@ -1,13 +1,19 @@
 // ==UserScript==
-// @name         Steam-Autocraft
+// @name         Steam-Autocraft-Reupload
 // @version      1.4
 // @description  AutoCraft Steam Community Badges
 // @author       nidushan
+// @namespace    https://github.com/nidushan/SteamAutoCraft
+// @match        https://steamcommunity.com/*
 // @include      /^https?:\/\/steamcommunity\.com\/+(id\/+[A-Za-z0-9$-_.+!*'(),]+|profiles\/+[0-9]+)\/+(badges\/?|gamecards\/+[0-9]+\/?).*$/
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
-// @copyright    2025 nidushan
 // @grant        none
+// @copyright    2025 nidushan
+//
+// @updateURL    https://raw.githubusercontent.com/nidushan/SteamAutoCraft/main/SteamAutoCraft.user.js   // NEW
+// @downloadURL  https://raw.githubusercontent.com/nidushan/SteamAutoCraft/main/SteamAutoCraft.user.js   // NEW
 // ==/UserScript==
+
 
 // Vars
 var badgesPageURL            = '/badges/';
